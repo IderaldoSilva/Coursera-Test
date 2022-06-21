@@ -1,32 +1,75 @@
 * { box-sizing: border-box; }
 
 h1 { 
-	margin-bottom: 15px; 
-	}
-
-p {
-	border: 1px solid black; 
-	background-color: #a52a2a; 
-	width: 90%;
-	height: 150px;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: Helvica;
-	color: Black;
+	text-align: center;
 }
 
-.row {
+p {
+	border: 1px solid black;
+	background-color: gray; 
 	width: 100%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-family: Helvica;
+	color: black;
+	font-size: 20px;
+	padding: 50px 20px 50px;
+}
+
+.box-1 {
+	text-align: center;
+	float: right;
+	border: 1px solid black;
+	background-color: #e77577; 
+	width: auto;
+	height: 50px;
+	font-family: Helvica;
+	color: black;
+	font-size: 25px;
+	padding: 5px 30px;
+}
+
+.box-2 {
+	text-align: center;
+	float: right;
+	border: 1px solid black;
+	background-color: #a52a2a; 
+	width: auto;
+	height: 50px;
+	font-family: Helvica;
+	color: black;
+	font-size: 25px;
+	padding: 5px 30px;
+}
+
+.box-3 {
+	text-align: center;
+	float: right;
+	border: 1px solid black;
+	background-color: #ffec59; 
+	width: auto;
+	height: 50px;
+	font-family: Helvica;
+	color: black;
+	font-size: 25px;
+	padding: 5px 30px;
+}
+.row {
+	margin-left: 20px;
+	width: 90%;
 }
 
 /***********Large device***********/
 
-@media (min-witdh: 992px) {
-	.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,
+@media (min-width: 992px) { .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,
 	.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,
 	.col-lg-12 {
 		float: left;
-		border: 1px solidgreen; 
+		padding: 10px 10px 0px;
+		margin-top: 0px;
 	}
 	.col-lg-1 {
 		width: 8.33%;
@@ -39,6 +82,7 @@ p {
 	}
 	.col-lg-4 {
 		width: 33%;
+		;
 	}
 	.col-lg-5 {
 		width: 41.66%;
@@ -68,13 +112,14 @@ p {
 
 /***********Medium device***********/
 
-@media (min-witdh: 768px) and (max-witdh: 991) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,
 	.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,
 	.col-md-12 {
 		float: left;
-		border: 1px solidgreen; 
-	}
+		padding: 10px 10px 0px;	
+		margin-top: 0px;
+		}
 	.col-md-1 {
 		width: 8.33%;
 	}
